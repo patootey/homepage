@@ -88,8 +88,10 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgba(58, 128, 0, 0.623);
+    background-color: rgb(152, 190, 121);
     color: #ffffff;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-links a {
@@ -130,15 +132,15 @@ li {
     /*WITH RESPECT TO PARENT*/
     display: none;
     border-radius: 8px;
-    top: 35px;
+    top: 30px;
 }
 
 .dropdown li+li {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .dropdown li {
-    padding: 0.5em 1em;
+    padding: 0.2em 0.5em;
     width: 8em;
     text-align: center;
 }
@@ -169,7 +171,7 @@ input[type="checkbox"] {
     .menu {
         display: none;
         position: absolute;
-        background-color: teal;
+        background-color: rgb(116, 148, 65);
         right: 0;
         left: 0;
         text-align: center;
@@ -195,13 +197,13 @@ input[type="checkbox"] {
     }
 
     .dropdown {
-        left: 50%;
-        top: 30px;
+        left: 25%;
+        top: 10px;
         transform: translateX(35%);
     }
 
     .dropdown li:hover {
-        background-color: #4c9e9e;
+        background-color: #669e4c;
     }
 }
 
