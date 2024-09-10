@@ -1,300 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="pictures/favicon.png" />
     <title>Patootey</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">
-        <!-- LOGO -->
-        <div class="logo">Patootey</div>
+      <!-- LOGO -->
+      <div class="logo">Patootey</div>
 
-        <!-- NAVIGATION MENU -->
-        <ul class="nav-links">
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
 
-            <!-- USING CHECKBOX HACK -->
-            <input type="checkbox" id="checkbox_toggle" />
-            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
 
-            <!-- NAVIGATION MENUS -->
-            <div class="menu">
+          <li class="services">
+            <a href="/">Work</a>
 
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
+            <!-- DROPDOWN MENU -->
+            <ul class="dropdown">
+              <li><a href="https://meow.patootey.com/">lumber</a></li>
+              <li><a href="/">Cats</a></li>
+              <li><a href="/">Stardew Valley</a></li>
+            </ul>
+          </li>
 
-                <li class="services">
-                    <a href="/">Work</a>
-
-                    <!-- DROPDOWN MENU -->
-                    <ul class="dropdown">
-                        <li><a href="https://meow.patootey.com/">lumber</a></li>
-                        <li><a href="/">Cats</a></li>
-                        <li><a href="/">Stardew Valley</a></li>
-                    </ul>
-
-                </li>
-
-                <li><a href="/">Contact</a></li>
-            </div>
-        </ul>
+          <li><a href="/">Contact</a></li>
+        </div>
+      </ul>
     </nav>
 
-    <main>
-        <h1>Welcome</h1>
-        <p>My name is Mathilde and this a website about me and work I have done.</p>
-
-        <li>Movies/Series</li>
-        <li>Animals</li>
-        <li>Games</li>
-        <li>Calender/School</li>
-
-        <div class="timetable">
-            <div class="week-names">
-              <div>Monday</div>
-              <div>Tuesday</div>
-              <div>Wednesday</div>
-              <div>Thursday</div>
-              <div>Friday</div>
-              <div class="weekend">saturday</div>
-              <div class="weekend">sunday</div>
-            </div>
-            <div class="time-interval">
-              <div>8:00 - 9:35</div>
-              <div>10:00 - 12:00</div>
-              <div>12:00 - 14:00</div>
-              <div>14:00 - 16:00</div>
-              <div>16:00 - 18:00</div>
-              <div>18:00 - 20:00</div>
-            </div>
-            <div class="content">
-              <div>
-                <div class="accent-orange-gradient"></div>
-              </div>
-              <div></div>
-              <div></div>
-              <div></div>
-                  <div>
-                <div class="accent-green-gradient"></div>
-              </div>
-              <div class="weekend"></div>
-              <div class="weekend"></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div>
-                <div class="accent-cyan-gradient"></div>
-              </div>
-              <div></div>
-              <div class="weekend"></div>
-              <div class="weekend"></div>
-              <div>
-                <div class="accent-pink-gradient"></div>
-              </div>
-              <div></div>
-              <div>
-                <div class="accent-purple-gradient"></div>
-              </div>
-              <div></div>
-              <div></div>
-              <div class="weekend"></div>
-              <div class="weekend"></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div class="weekend"></div>
-              <div class="weekend"></div>
-              <div>
-                <div class="accent-purple-gradient"></div>
-              </div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div class="weekend"></div>
-              <div class="weekend"></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div class="weekend"></div>
-              <div class="weekend"></div>
-            </div>
-          </div>
-
-<!--<table border="5" cellspacing="0" align="center">
-        <!--<caption>Timetable</caption>
-        <tr>
-            <td align="center" height="50" width="100"><br>
-                <b>Day/Period</b></br>
-            </td>
-            <td align="center" height="50" width="100">
-                <b>1-2<br>08:00-09:35</b>
-            </td>
-            <td align="center" height="50" width="100">
-                <b>3-4<br>09:45-11:0</b>
-            </td>
-            <td align="center" height="50" width="100">
-                <b>III<br>11:10-12:00</b>
-            </td>
-            <td align="center" height="50" width="100">
-                <b>12:00-12:40</b>
-            </td>
-            <td align="center" height="50" width="100">
-                <b>IV<br>12:40-1:30</b>
-            </td>
-            <td align="center" height="50" width="100">
-                <b>V<br>1:30-2:20</b>
-            </td>
-            <td align="center" height="50" width="100">
-                <b>VI<br>2:20-3:10</b>
-            </td>
-            <td align="center" height="50" width="100">
-                <b>VII<br>3:10-4:00</b>
-            </td>
-        </tr>
-        <tr>
-            <td align="center" height="50">
-                <b>Monday</b>
-            </td>
-            <td align="center" height="50">Eng</td>
-            <td align="center" height="50">Mat</td>
-            <td align="center" height="50">Che</td>
-            <td rowspan="6" align="center" height="50">
-                <h2>L<br>U<br>N<br>C<br>H</h2>
-            </td>
-            <td colspan="3" align="center" height="50">LAB</td>
-            <td align="center" height="50">Phy</td>
-        </tr>
-        <tr>
-            <td align="center" height="50">
-                <b>Tuesday</b>
-            </td>
-            <td colspan="3" align="center" height="50">LAB
-            </td>
-            <td align="center" height="50">Eng</td>
-            <td align="center" height="50">Che</td>
-            <td align="center" height="50">Mat</td>
-            <td align="center" height="50">SPORTS</td>
-        </tr>
-        <tr>
-            <td align="center" height="50">
-                <b>Wednesday</b>
-            </td>
-            <td align="center" height="50">Mat</td>
-            <td align="center" height="50">phy</td>
-            <td align="center" height="50">Eng</td>
-            <td align="center" height="50">Che</td>
-            <td colspan="3" align="center" height="50">LIBRARY
-            </td>
-        </tr>
-        <tr>
-            <td align="center" height="50">
-                <b>Thursday</b>
-            </td>
-            <td align="center" height="50">Phy</td>
-            <td align="center" height="50">Eng</td>
-            <td align="center" height="50">Che</td>
-            <td colspan="3" align="center" height="50">LAB
-            </td>
-            <td align="center" height="50">Mat</td>
-        </tr>
-        <tr>
-            <td align="center" height="50">
-                <b>Friday</b>
-            </td>
-            <td colspan="3" align="center" height="50">LAB
-            </td>
-            <td align="center" height="50">Mat</td>
-            <td align="center" height="50">Che</td>
-            <td align="center" height="50">Eng</td>
-            <td align="center" height="50">Phy</td>
-        </tr>
-    </table>-->
-        <!--<div class="header">
-            <h1> Movies I love</h1>
-          </div>
-        <div class="row">
-
-            <div class="column">
-
-                <div class="container"><img src="pictures/princess_frog.jpeg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">This is a picture of one of my favourite movies</div>
-                    </div>
-                </div>
-                <div class="container"><img src="pictures/totoro.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">This is a picture of one of my favourite movies</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="container"><img src="pictures/lotr.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">This is a picture of one of my favourite movies</div>
-                    </div>
-                </div>
-                <div class="container"><img src="pictures/mebeforeyou.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">This is a picture of one of my favourite movies</div>
-                    </div>
-                </div>
-                <div class="container"><img src="pictures/spiritedaway.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">This is a picture of one of my favourite movies</div>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="container"><img src="pictures/lotr.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">This is a picture of one of my favourite movies</div>
-                    </div>
-                </div>
-                <div class="container"><img src="pictures/mebeforeyou.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">This is a picture of one of my favourite movies</div>
-                    </div>
-                </div>
-                <div class="container"><img src="pictures/spiritedaway.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">This is a picture of one of my favourite movies</div>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="container"><img src="pictures/lotr.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">This is a picture of one of my favourite movies</div>
-                    </div>
-                </div>
-                <div class="container"><img src="pictures/mebeforeyou.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">This is a picture of one of my favourite movies</div>
-                    </div>
-                </div>
-                <div class="container"><img src="pictures/spiritedaway.jpg" class="image" style="width:100%">
-                    <div class="middle">
-                        <div class="text">This is a picture of one of my favourite movies</div>
-                    </div>
-                </div>
-            </div>
-        </div>-->
-
-
-
-
-    </main>
-    <footer></footer>
-</body>
-
+    <main></main>
+    <footer>
+        <div class="social_links">
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/borsodien/" target="_blank">
+                        <img src="https://static.vecteezy.com/system/resources/previews/023/986/514/non_2x/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png" alt="instagram logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+  </body>
 </html>
